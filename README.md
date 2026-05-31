@@ -5,7 +5,7 @@
 
 ## About
 
-This repository was created during a self‑study journey from zero to Middle QA. It contains practical tasks, test cases, checklists, bug reports, and future automation examples.
+This repository was created during a self‑study journey from zero. It contains practical tasks, test cases, checklists, bug reports, and future automation examples.
 
 ## Structure
 
@@ -48,6 +48,6 @@ This repository was created during a self‑study journey from zero to Middle QA
 ## Contact
 
 - Email: gigo1020@mail.ru
-- GitHub: [your_username]
+- GitHub: gigo1020
 
 *Updated as I progress.*
