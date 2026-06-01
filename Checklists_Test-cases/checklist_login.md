@@ -24,7 +24,7 @@
 - Tab switches fields in the correct order
 - Clicking on the eye toggles the visibility of the entered password
 
-## Защита
+## Security
 - The password field is hidden (asterisks or dots)
 - Doesn't save password in URL after form submission
 - XSS-Script
