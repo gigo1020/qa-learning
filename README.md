@@ -9,13 +9,13 @@ This repository was created during a self‑study journey from zero. It contains
 
 ## Repository Structure
 
-├── bug-reports/ # Screenshots of Jira bug reports (SCRUM-1,2,3)
-├── Checklists_Test-cases/ # All test cases and checklists
-├── devtools/ # DevTools practice files and screenshots
-├── theory_images/ # Diagrams (SDLC/STLC, etc.)
-├── agile_scrum_vs_kanban.md # Scrum vs Kanban comparison table
-├── client_server_http.md # HTTP methods, status codes, client-server basics
-└── README.md
+- [ ] bug-reports/ # Screenshots of Jira bug reports (SCRUM-1,2,3)
+- [ ] Checklists_Test-cases/ # All test cases and checklists
+- [ ] devtools/ # DevTools practice files and screenshots
+- [ ] theory_images/ # Diagrams (SDLC/STLC, etc.)
+- [ ] agile_scrum_vs_kanban.md # Scrum vs Kanban comparison table
+- [ ] client_server_http.md # HTTP methods, status codes, client-server basics
+- [ ] README.md
 
 
 
