@@ -1,9 +1,3 @@
-Тестировала: Королёва Дарья
-
-Почта: [gigo1020@mail.ru](mailto:gigo1020@mail.ru)
-
-  
-
 Задание: [https://disk.yandex.ru/i/YMPJeEt1MRhozQ](https://disk.yandex.ru/i/YMPJeEt1MRhozQ)
 
 Задание 1
