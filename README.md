@@ -54,9 +54,9 @@ Topics studied:
 - Grouping: GROUP BY, HAVING
 - NULL handling: IFNULL, NULLIF, COALESCE
 - Weighted average
-
 - [Subqueries practice](sql/subqueries_practice.sql)
 - [LeetCode solutions (MySQL)](sql/leetcode_solutions/)
+- Worked with DBeaver and PostgreSQL (Northwind sample database). [10 queries](sql/dbeaver_practice.sql)
 
 ## Completed Topics
 - **Testing theory:** verification vs validation, error/defect/failure, test levels, test types (smoke, sanity, regression, functional, non-functional)
@@ -71,7 +71,7 @@ Topics studied:
 - Git, GitHub (Pull Requests, branches, rulesets)
 - Jira (bug tracking)
 - Postman (planned)
-- DBeaver (planned)
+- DBeaver (PostgreSQL)
 - Browser DevTools
 
 ## Certificates
