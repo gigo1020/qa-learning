@@ -44,19 +44,19 @@ This repository was created during a self‑study journey from zero. It contains
 - [Network, Console, Elements tabs – screenshots and notes](devtools/devtools_practice.md)
 
 ## SQL
-
 Topics studied:
 - SELECT, FROM, WHERE
 - ORDER BY, DESC, ASC
-- JOIN (INNER, LEFT), multiple conditions in JOIN
+- JOIN (INNER, LEFT, RIGHT), multiple conditions in JOIN
 - Subqueries: IN, EXISTS, scalar subqueries
 - Aggregate functions: SUM, AVG
 - Grouping: GROUP BY, HAVING
 - NULL handling: IFNULL, NULLIF, COALESCE
 - Weighted average
 - [Subqueries practice](sql/subqueries_practice.sql)
-- [LeetCode solutions (MySQL)](sql/leetcode_solutions/)
+- [LeetCode solutions (MySQL/PostgreSQL)](sql/leetcode_solutions/)
 - Worked with DBeaver and PostgreSQL (Northwind sample database). [10 queries](sql/dbeaver_practice.sql)
+- [Theory checklist](sql/sql_theory_checklist.md)
 
 ## Completed Topics
 - **Testing theory:** verification vs validation, error/defect/failure, test levels, test types (smoke, sanity, regression, functional, non-functional)
@@ -64,15 +64,16 @@ Topics studied:
 - **Git & GitHub:** branches, pull requests, commits, branch protection
 - **Jira:** project creation, bug reports (priority, severity), exporting to PDF/PNG
 - **Agile:** Scrum roles, artifacts, events; Kanban WIP limits; differences
-- **Client-server & HTTP:** GET/POST/PUT/DELETE, status codes 2xx/4xx/5xx
+- **Client-server & HTTP:** GET/POST/PUT/DELETE, status codes 1xx/2xx/3xx/4xx/5xx
 - **DevTools:** Network (requests, status, remote address), Console (logging), Elements (editing HTML attributes)
 
 ## Tools
 - Git, GitHub (Pull Requests, branches, rulesets)
-- Jira (bug tracking)
-- Postman (planned)
+- Jira
+- Qase
 - DBeaver (PostgreSQL)
 - Browser DevTools
+
 
 ## Certificates
 - [SQL certificate](certificates/sql_cert.pdf)
