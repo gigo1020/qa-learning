@@ -1,11 +1,11 @@
 # QA Learning — Tester's Portfolio
 
 **Author:** Daria Koroleva  
-**Goal:** Demonstrate skills in manual testing, test design, Git, Jira, HTTP, DevTools, SQL and Agile basics
+**Goal:** Demonstrate skills in manual testing, test design, Git, Jira, HTTP, DevTools, SQL, Postman and Agile basics
 
 ## About
 
-This repository was created during a self‑study journey from zero. It contains practical tasks, test cases, checklists, bug reports, and future automation examples.
+This repository was created during a self‑study journey from zero. It contains practical tasks, test cases, checklists, bug reports, and automation examples
 
 ## Repository Structure
 
@@ -16,6 +16,7 @@ This repository was created during a self‑study journey from zero. It contains
 - `agile_scrum_vs_kanban.md` – Scrum vs Kanban comparison table
 - `client_server_http.md` – HTTP methods, status codes, client-server basics
 - `sql/` – practice in studying database queries, problem solving
+- `api/` - practice in API queries and autotesting in Postman
 - `README.md`
 
 ## Test Documentation
@@ -58,6 +59,11 @@ Topics studied:
 - Worked with DBeaver and PostgreSQL (Northwind sample database). [10 queries](sql/dbeaver_practice.sql)
 - [Theory checklist](sql/sql_theory_checklist.md)
 
+## Postman
+- [Collection with environment and tests](api/postman/JSONPlaceholder_Tests.postman_collection.json)
+- [Variables and environment explanation](api/postman/postman_variables_tests.md)
+- [Test scenarios explanation](api/postman/postman_tests_explanation.md)
+
 ## Completed Topics
 - **Testing theory:** verification vs validation, error/defect/failure, test levels, test types (smoke, sanity, regression, functional, non-functional)
 - **Test design:** equivalence partitioning, boundary values, pairwise, decision tables, state transition
@@ -73,6 +79,7 @@ Topics studied:
 - Qase
 - DBeaver (PostgreSQL)
 - Browser DevTools
+- Postman
 
 
 ## Certificates
@@ -81,7 +88,7 @@ Topics studied:
 - [Mincult certificate](certificates/mincult_cert.pdf)
 
 ## Contact
-- Email: gigo1020@mail.ru
+- Email: darkor252@gmail.com
 - GitHub: gigo1020
 
 *Updated as I progress.*
