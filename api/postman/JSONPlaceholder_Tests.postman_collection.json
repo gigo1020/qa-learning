@@ -12,7 +12,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "raw": "{{baseUrl}}/posts",
           "protocol": "https",
           "host": [
             "jsonplaceholder",
@@ -32,7 +32,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "raw": "{{baseUrl}}/posts/1",
           "protocol": "https",
           "host": [
             "jsonplaceholder",
