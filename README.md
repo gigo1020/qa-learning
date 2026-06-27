@@ -22,11 +22,11 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 ## 📂 Portfolio Projects & Practice
 
 ### 🧪 Manual Testing
-- [Test Cases: Login Form (10 cases)](checklists-test-cases/test_cases_login.md)  
-- [Test Cases: Video Player (5 cases)](checklists-test-cases/test_cases_video_player.md)  
-- [Test Cases: Yandex Maps (5 cases)](checklists-test-cases/test_cases_maps.md)  
+- [Test Cases: Login Form (10 cases)](checklists-test-cases/test-cases/test_cases_login.md)  
+- [Test Cases: Video Player (5 cases)](checklists-test-cases/test-cases/test_cases_video_player.md)  
+- [Test Cases: Yandex Maps (5 cases)](checklists-test-cases/test-cases/test_cases_maps.md)  
 - [Yandex Test Task (10 cases + exploratory testing)](checklists-test-cases/yandex-test-task.md)  
-- [Checklists: Login, Tic-Tac-Toe, File Upload](checklists-test-cases/)  
+- [Checklists: Login, Tic-Tac-Toe, File Upload](checklists-test-cases/checklists/)  
 - [Bug Reports: Jira screenshots (3 bugs)](bug-reports/)
 
 ### 🔌 API Testing
@@ -41,7 +41,7 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 - [Theory Checklist](sql/sql_theory_checklist.md)
 
 ### 🐧 Linux
-- [Quick Reference (Memory Aid)](linux/linux_quick_reference.md)  
+- [Quick Reference (Memory Aid)](linux/linux_memory_aid.md)  
 - [Practice Log: Navigation, Logs, grep](linux/linux_practice.md)  
 - [Sample Log Files Created During Practice](linux/logs/)
 
@@ -51,9 +51,9 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 ---
 
 ## 📜 Certificates
-- [SQL (Stepik)](certificates/sql_cert.png)  
-- [Software Testing (Stepik)](certificates/testing_cert.png)  
-- [Regression Testing (Mincult)](certificates/mincult_cert.png)
+- [SQL (Stepik)](certificates/sql_cert.PNG)  
+- [Software Testing (Stepik)](certificates/testing_cert.PNG)  
+- [Regression Testing (Mincult)](certificates/mincult_cert.PNG)
 
 ---
 
