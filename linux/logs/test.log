@@ -1,0 +1,6 @@
+INFO: Started
+ERROR: Failed to connect
+WARNING: Timeout
+INFO: Retry
+ERROR: Connection refused
+ERROR: Timeout
