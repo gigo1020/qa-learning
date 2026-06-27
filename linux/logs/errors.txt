@@ -1,0 +1,16 @@
+2026-06-24T14:19:53.049012+00:00 linux-pc kernel: KHO: Failed to reserve lowmem scratch buffer
+2026-06-24T14:19:53.049016+00:00 linux-pc kernel: KHO: Failed to reserve scratch area, disabling kexec handover
+2026-06-24T14:19:53.049115+00:00 linux-pc kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+2026-06-24T14:19:53.049265+00:00 linux-pc systemd[1]: Starting grub-initrd-fallback.service - GRUB failed boot detection...
+2026-06-24T14:19:53.049316+00:00 linux-pc systemd[1]: Dependency failed for sssd-nss.socket - SSSD NSS Service responder socket.
+2026-06-24T14:19:53.049318+00:00 linux-pc systemd[1]: sssd-nss.socket: Job sssd-nss.socket/start failed with result 'dependency'.
+2026-06-24T14:19:53.049322+00:00 linux-pc systemd[1]: Dependency failed for sssd-autofs.socket - SSSD AutoFS Service responder socket.
+2026-06-24T14:19:53.049324+00:00 linux-pc systemd[1]: sssd-autofs.socket: Job sssd-autofs.socket/start failed with result 'dependency'.
+2026-06-24T14:19:53.049331+00:00 linux-pc systemd[1]: Dependency failed for sssd-pac.socket - SSSD PAC Service responder socket.
+2026-06-24T14:19:53.049333+00:00 linux-pc systemd[1]: sssd-pac.socket: Job sssd-pac.socket/start failed with result 'dependency'.
+2026-06-24T14:19:53.049337+00:00 linux-pc systemd[1]: Dependency failed for sssd-pam.socket - SSSD PAM Service responder socket.
+2026-06-24T14:19:53.049341+00:00 linux-pc systemd[1]: sssd-pam.socket: Job sssd-pam.socket/start failed with result 'dependency'.
+2026-06-24T14:19:53.049347+00:00 linux-pc systemd[1]: Dependency failed for sssd-ssh.socket - SSSD SSH Service responder socket.
+2026-06-24T14:19:53.049350+00:00 linux-pc systemd[1]: sssd-ssh.socket: Job sssd-ssh.socket/start failed with result 'dependency'.
+2026-06-24T14:19:53.049354+00:00 linux-pc systemd[1]: Dependency failed for sssd-sudo.socket - SSSD Sudo Service responder socket.
+2026-06-24T14:19:53.049357+00:00 linux-pc systemd[1]: sssd-sudo.socket: Job sssd-sudo.socket/start failed with result 'dependency'.

@@ -1,94 +1,68 @@
-# QA Learning — Tester's Portfolio
+# QA Learning — Daria Koroleva
 
-**Author:** Daria Koroleva  
-**Goal:** Demonstrate skills in manual testing, test design, Git, Jira, HTTP, DevTools, SQL, Postman and Agile basics
+**Aspiring QA Engineer** | Manual & API Testing | SQL | Linux | Git
 
-## About
+This repository showcases my hands-on journey from zero to job-ready QA specialist. It contains practical tasks, test documentation, API collections, SQL queries, Linux practice, and more
 
-This repository was created during a self‑study journey from zero. It contains practical tasks, test cases, checklists, bug reports, and automation examples
+---
 
-## Repository Structure
+## 🧰 Tech Stack
 
-- `bug-reports/` – Screenshots of Jira bug reports 
-- `Checklists_Test-cases/` – All test cases and checklists
-- `devtools/` – DevTools practice files and screenshots
-- `theory_images/` – Diagrams (SDLC/STLC, etc.)
-- `agile_scrum_vs_kanban.md` – Scrum vs Kanban comparison table
-- `client_server_http.md` – HTTP methods, status codes, client-server basics
-- `sql/` – practice in studying database queries, problem solving
-- `api/` - practice in API queries and autotesting in Postman
-- `README.md`
+- **Manual Testing:** Test design, test cases, checklists, bug reports (Jira, Qase)
+- **API Testing:** Postman (collections, environments, variables, tests), Swagger/OpenAPI
+- **SQL:** PostgreSQL, DBeaver, complex queries (JOIN, subqueries, aggregations), LeetCode
+- **Linux:** Navigation, file operations, logs, grep, pipes, redirection
+- **DevTools:** Network, Console, Elements (debugging, diagnostics)
+- **Git & GitHub:** Branches, pull requests, commits, conflict resolution
+- **Python:** Basic syntax, lists, dicts, conditions, loops (in progress)
+- **Agile/Scrum:** Roles, artifacts, events, SDLC/STLC
 
-## Test Documentation
+---
 
-### Test Cases
-- [Login form (10 test cases)](Checklists_Test-cases/test_cases_login.md)
-- [Video player – 5 cases](Checklists_Test-cases/test_cases_video_player.md)
-- [Maps – 5 cases](Checklists_Test-cases/test_cases_maps.md)
-- [Yandex test task (10 cases for search + exploratory testing)](Checklists_Test-cases/yandex-test-task.md)
+## 📂 Portfolio Projects & Practice
 
-### Checklists
-- [Login form checklist (15 points)](Checklists_Test-cases/checklist_login.md)
-- [Tic‑Tac‑Toe game checklist (16 points, includes potential bugs)](Checklists_Test-cases/checklist_tictactoe.md)
-- [File upload checklist](Checklists_Test-cases/checklist_file_upload.md)
+### 🧪 Manual Testing
+- [Test Cases: Login Form (10 cases)](checklists-test-cases/test_cases_login.md)  
+- [Test Cases: Video Player (5 cases)](checklists-test-cases/test_cases_video_player.md)  
+- [Test Cases: Yandex Maps (5 cases)](checklists-test-cases/test_cases_maps.md)  
+- [Yandex Test Task (10 cases + exploratory testing)](checklists-test-cases/yandex-test-task.md)  
+- [Checklists: Login, Tic-Tac-Toe, File Upload](checklists-test-cases/)  
+- [Bug Reports: Jira screenshots (3 bugs)](bug-reports/)
 
-## Bug Reports
-- [Jira bug reports (3 bugs: password validation, eye icon, long email overflow)](bug-reports/) – screenshots
+### 🔌 API Testing
+- [Postman Collection with Environment & Tests](api/postman/JSONPlaceholder_Tests.postman_collection.json)  
+- [Postman Variables & Environments Explanation](api/postman/postman_variables_tests.md)  
+- [Test Scenarios Explanation](api/postman/postman_tests_explanation.md)
 
-## Theory & Diagrams
-- [SDLC & STLC lifecycle diagram](theory_images/sdlc_stlc_scheme.png) (plus additional reference images)
-- [Test design techniques (equivalence partitioning, boundary values)](Checklists_Test-cases/theory_examples.txt)
-- [Client-Server & HTTP basics](client_server_http.md)
-- [Agile: Scrum vs Kanban comparison](agile_scrum_vs_kanban.md)
+### 🗄️ SQL
+- [Subqueries Practice (IN, EXISTS)](sql/subqueries_practice.sql)  
+- [10 Complex Queries in DBeaver (Northwind)](sql/dbeaver_practice.sql)  
+- [LeetCode Solutions (11 tasks)](sql/leetcode_solutions/)  
+- [Theory Checklist](sql/sql_theory_checklist.md)
 
-## DevTools Practice
-- [Network, Console, Elements tabs – screenshots and notes](devtools/devtools_practice.md)
+### 🐧 Linux
+- [Quick Reference (Memory Aid)](linux/linux_quick_reference.md)  
+- [Practice Log: Navigation, Logs, grep](linux/linux_practice.md)  
+- [Sample Log Files Created During Practice](linux/logs/)
 
-## SQL
-Topics studied:
-- SELECT, FROM, WHERE
-- ORDER BY, DESC, ASC
-- JOIN (INNER, LEFT, RIGHT), multiple conditions in JOIN
-- Subqueries: IN, EXISTS, scalar subqueries
-- Aggregate functions: SUM, AVG
-- Grouping: GROUP BY, HAVING
-- NULL handling: IFNULL, NULLIF, COALESCE
-- Weighted average
-- [Subqueries practice](sql/subqueries_practice.sql)
-- [LeetCode solutions (MySQL/PostgreSQL)](sql/leetcode_solutions/)
-- Worked with DBeaver and PostgreSQL (Northwind sample database). [10 queries](sql/dbeaver_practice.sql)
-- [Theory checklist](sql/sql_theory_checklist.md)
+### 🛠️ DevTools
+- [Practice: Network, Console, Elements](devtools/devtools_practice.md)
 
-## Postman
-- [Collection with environment and tests](api/postman/JSONPlaceholder_Tests.postman_collection.json)
-- [Variables and environment explanation](api/postman/postman_variables_tests.md)
-- [Test scenarios explanation](api/postman/postman_tests_explanation.md)
+---
 
-## Completed Topics
-- **Testing theory:** verification vs validation, error/defect/failure, test levels, test types (smoke, sanity, regression, functional, non-functional)
-- **Test design:** equivalence partitioning, boundary values, pairwise, decision tables, state transition
-- **Git & GitHub:** branches, pull requests, commits, branch protection
-- **Jira:** project creation, bug reports (priority, severity), exporting to PDF/PNG
-- **Agile:** Scrum roles, artifacts, events; Kanban WIP limits; differences
-- **Client-server & HTTP:** GET/POST/PUT/DELETE, status codes 1xx/2xx/3xx/4xx/5xx
-- **DevTools:** Network (requests, status, remote address), Console (logging), Elements (editing HTML attributes)
+## 📜 Certificates
+- [SQL (Stepik)](certificates/sql_cert.png)  
+- [Software Testing (Stepik)](certificates/testing_cert.png)  
+- [Regression Testing (Mincult)](certificates/mincult_cert.png)
 
-## Tools
-- Git, GitHub (Pull Requests, branches, rulesets)
-- Jira
-- Qase
-- DBeaver (PostgreSQL)
-- Browser DevTools
-- Postman
+---
 
+## 📫 Contact
+- **Email:** darkor252@gmail.com  
+- **GitHub:** [gigo1020](https://github.com/gigo1020)
 
-## Certificates
-- [SQL certificate](certificates/sql_cert.pdf)
-- [Testing certificate](certificates/testing_cert.pdf)
-- [Mincult certificate](certificates/mincult_cert.pdf)
+---
 
-## Contact
-- Email: darkor252@gmail.com
-- GitHub: gigo1020
+## ℹ️ About This Repository
 
-*Updated as I progress.*
+This repository was created as part of a structured self-study program to become a QA Engineer. Every file here reflects a real task, exercise, or project I completed. The content is updated regularly as I learn new tools and techniques
