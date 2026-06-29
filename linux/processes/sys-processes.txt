@@ -1,0 +1,10 @@
+root           1  0.3  0.4  25504 16776 ?        Ss   00:21   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize=52 splash
+root         600  0.0  0.6  67220 21524 ?        S<s  00:22   0:00 /usr/lib/systemd/systemd-journald
+systemd+     641  0.0  0.2  16808  7664 ?        Ss   00:22   0:00 /usr/lib/systemd/systemd-oomd
+systemd+     642  0.0  0.4  22416 15016 ?        Ss   00:22   0:00 /usr/lib/systemd/systemd-resolved
+root         667  0.0  0.4  42644 16208 ?        Ss   00:22   0:00 /usr/lib/systemd/systemd-udevd
+root        1191  0.0  0.0   2888  1940 ?        Ss   00:22   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+message+    1192  0.1  0.2  11736  8396 ?        Ss   00:22   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1229  0.0  0.2  18464  9676 ?        Ss   00:22   0:00 /usr/lib/systemd/systemd-logind
+darya       1826  0.1  0.4  23720 15076 ?        Ss   00:23   0:00 /usr/lib/systemd/systemd --user
+darya       1850  0.1  0.1   9948  6952 ?        Ss   00:23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only

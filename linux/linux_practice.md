@@ -58,3 +58,29 @@
 - Network commands (`netstat`, `ping`)
 - Permissions (`chmod`, `chown`)
 - Will update this log accordingly
+
+---
+
+## Day 3 – Processes, Network, and Permissions (Day 18 overall)
+
+**Goals:** Learn to manage processes (view, monitor, kill), diagnose network connectivity, check open ports, and manage file permissions.
+
+**Commands practiced:** `ps aux`, `top`, `kill`, `kill -9`, `ping`, `netstat`, `ss`, `chmod`, `whoami`
+
+**Activities:**
+- Listed all running processes (`ps aux`) and filtered by user (`grep $USER`).
+- Used `top` to see processes in real time and exited with `q`.
+- Created a "hanging" process (`sleep 300`) and practiced graceful termination (`kill PID`) and forced termination (`kill -9 PID`).
+- Checked network connectivity to `google.com` with `ping -c 4`.
+- Examined listening ports using `sudo netstat -tulpn` and `sudo ss -tulpn`; identified which process occupies port 22 (SSH).
+- Created a simple shell script `test_script.sh`, observed "Permission denied", then made it executable with `chmod +x` and ran it successfully.
+- Used `whoami` to verify current user.
+
+**Key learnings:**
+- `kill -9` should be used only when a process is unresponsive to normal `kill`.
+- `netstat` and `ss` show which services are waiting for connections (`LISTEN`) – essential for debugging service availability.
+- `chmod +x` is necessary to execute scripts; without it, Linux blocks execution for security.
+- Ports like 22 (SSH), 80 (HTTP), 443 (HTTPS) are common; knowing how to check them helps when testing services.
+
+**Files created:**
+- `~/linux-practice/test_script.sh` – simple executable script used to test permissions.

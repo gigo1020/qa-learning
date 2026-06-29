@@ -1,0 +1,6 @@
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=642,fd=17))             
+tcp   LISTEN 0      4096                          127.0.0.54:53        0.0.0.0:*    users:(("systemd-resolve",pid=642,fd=19))             
+tcp   LISTEN 0      4096                             0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=1768,fd=3),("systemd",pid=1,fd=93))
+tcp   LISTEN 0      4096                           127.0.0.1:631       0.0.0.0:*    users:(("cupsd",pid=1734,fd=7))                       
+tcp   LISTEN 0      4096                               [::1]:631          [::]:*    users:(("cupsd",pid=1734,fd=6))                       
+tcp   LISTEN 0      4096                                [::]:22           [::]:*    users:(("sshd",pid=1768,fd=4),("systemd",pid=1,fd=94))
