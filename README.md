@@ -2,7 +2,7 @@
 
 **Aspiring QA Engineer** | Manual & API Testing | SQL | Linux | Git
 
-This repository showcases my hands-on journey from zero to job-ready QA specialist. It contains practical tasks, test documentation, API collections, SQL queries, Linux practice, and more
+This repository showcases my hands-on journey from zero to job-ready QA specialist. It contains practical tasks, test documentation, API collections, SQL queries, Linux practice, and more.
 
 ---
 
@@ -11,7 +11,7 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 - **Manual Testing:** Test design, test cases, checklists, bug reports (Jira, Qase)
 - **API Testing:** Postman (collections, environments, variables, tests), Swagger/OpenAPI
 - **SQL:** PostgreSQL, DBeaver, complex queries (JOIN, subqueries, aggregations), LeetCode
-- **Linux:** Navigation, file operations, logs, grep, pipes, redirection
+- **Linux:** Navigation, file operations, process management, network diagnostics, permissions
 - **DevTools:** Network, Console, Elements (debugging, diagnostics)
 - **Git & GitHub:** Branches, pull requests, commits, conflict resolution
 - **Python:** Basic syntax, lists, dicts, conditions, loops (in progress)
@@ -41,8 +41,13 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 - [Theory Checklist](sql/sql_theory_checklist.md)
 
 ### 🐧 Linux
-- [Quick Reference (Memory Aid)](linux/linux_memory_aid.md)  
-- [Practice Log: Navigation, Logs, grep](linux/linux_practice.md)  
+- [Quick Reference (Memory Aid)](linux/linux_memory_aid.md) – cheatsheet with essential commands  
+- [Practice Log](linux/linux_practice.md) – hands‑on exercises covering:
+  - Navigation and file operations (`pwd`, `ls`, `cd`, `mkdir`, `touch`, `cp`, `mv`, `rm`)
+  - Log analysis and filtering (`cat`, `less`, `head`, `tail -f`, `grep`, `wc`, pipes `|`, redirection `>`, `>>`)
+  - Process management and monitoring (`ps`, `top`, `kill`, `kill -9`)
+  - Network diagnostics (`ping`, `netstat`, `ss`, port states LISTEN / ESTABLISHED)
+  - Permissions and user info (`chmod`, `whoami`)
 - [Sample Log Files Created During Practice](linux/logs/)
 
 ### 🛠️ DevTools
@@ -65,4 +70,4 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 
 ## ℹ️ About This Repository
 
-This repository was created as part of a structured self-study program to become a QA Engineer. Every file here reflects a real task, exercise, or project I completed. The content is updated regularly as I learn new tools and techniques
+This repository was created as part of a structured self-study program to become a QA Engineer. Every file here reflects a real task, exercise, or project I completed. The content is updated regularly as I learn new tools and techniques.

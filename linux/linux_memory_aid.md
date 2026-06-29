@@ -39,14 +39,32 @@
 - `command > file` – write output to file (overwrite)
 - `command >> file` – append output to file
 
+---
+
 ## Process Management
 - `ps aux` – list all running processes
 - `ps aux | grep process_name` – find specific process
+- `top` – interactive process viewer (real‑time, press `q` to quit, `k` to kill)
+- `htop` – improved top (if installed: `sudo apt install htop`)
+- `kill PID` – send SIGTERM (ask process to terminate gracefully)
+- `kill -9 PID` – force kill with SIGKILL (use when process hangs)
 
+---
+
+## Network
+- `ping -c 4 host` – send 4 ICMP packets to check connectivity (e.g., `ping -c 4 google.com`)
+- `sudo netstat -tulpn` – show listening ports and associated processes (older, often needs sudo)
+- `sudo ss -tulpn` – modern replacement for netstat (faster, more detailed)
+- `sudo netstat -tulpn | grep :22` – find process using port 22 (SSH)
+- `nc -zv host port` – check if a specific port is open (e.g., `nc -zv google.com 80`)
+
+**Port states:**
+- `LISTEN` – server is waiting for incoming connections
+- `ESTABLISHED` – active connection between client and server
+
+---
 
 ## Permissions
 - `chmod +x script.sh` – make script executable
-
-
-## System Info
-- `whoami` – current user
+- `chmod 755 script.sh` – set standard permissions (rwx for owner, rx for group/others)
+- `whoami` – show current username
