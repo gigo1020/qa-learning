@@ -50,6 +50,17 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
   - Permissions and user info (`chmod`, `whoami`)
 - [Sample Log Files Created During Practice](linux/logs/)
 
+## 🗂️ Git & Version Control
+- Branching and merging (`git branch`, `git checkout`, `git merge`)
+- Resolving merge conflicts (manual editing, `git add`, `git commit`)
+- Undoing changes (`git reset --soft`, `git reset --hard`, `git revert`)
+- Working with remotes (`git push`, `git pull`, `git fetch`)
+- Pull requests (creating, reviewing, merging)
+- Commit message conventions (Conventional Commits)
+- Credential management (`credential.helper`)
+- [Git commands cheatsheet](git/git_memory_aid.md)
+- [Example of conflict resolution](git/git_conflict_example.md)
+
 ### 🛠️ DevTools
 - [Practice: Network, Console, Elements](devtools/devtools_practice.md)
 
@@ -64,6 +75,7 @@ This repository showcases my hands-on journey from zero to job-ready QA speciali
 
 ## 📫 Contact
 - **Email:** darkor252@gmail.com  
+- **Telegram:** @gigo1020
 - **GitHub:** [gigo1020](https://github.com/gigo1020)
 
 ---
